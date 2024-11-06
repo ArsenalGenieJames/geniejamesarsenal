@@ -41,18 +41,24 @@ iframe {
 	transform: translateY(0);
 }
 
-	    .gallery-item img {
-	    	height: 200px;
-	    	object-fit: cover;
-	    }
+.gallery-item img {
+	height: 200px;
+	object-fit: cover;
+}
 	
-	    .fade-in {
-	    	opacity: 0;
-	    	transform: translateY(20px);
-	    	transition: opacity 0.5s ease-out, transform 0.5s ease-out;
-	    }
-	
-	    .fade-in.show {
-	    	opacity: 1;
-	    	transform: translateY(0);
-	    }
+.fade-in {
+	opacity: 0;
+	transform: translateY(20px);
+	transition: opacity 0.5s ease-out, transform 0.5s ease-out;
+}
+.fade-in.show {
+	opacity: 1;
+	transform: translateY(0);
+}
+/* .aboutgenie{
+	height: auto;
+    width: 70%;
+} */
+.infos{
+	text-align: justify;
+}
