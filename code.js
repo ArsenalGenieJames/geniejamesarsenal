@@ -1,5 +1,5 @@
 (function () {
-    emailjs.init("TQerHA4eynLXyyq9_");
+    emailjs.init("TQerHA4eynLXyyq9_"); // Replace with your EmailJS user ID  
 })();
 
 function sendEmail(event) {
@@ -12,10 +12,12 @@ function sendEmail(event) {
         message: form.message.value,
     };
 
-    emailjs.send('service_bccr4ub', 'template_ikpj5sl', templateParams)
+    emailjs.send('service_bccr4ub', 'template_ikpj5sl', templateParams) // Replace with your service and template IDs  
         .then((response) => {
             console.log('SUCCESS!', response.status, response.text);
-            alert('Message sent successfully!');
+            const alertMessage = document.getElementById('alertMessage');
+            alertMessage.classList.remove('d-none');
+            alertMessage.classList.add('show');
             form.reset();
         }, (error) => {
             console.error('FAILED...', error);
@@ -23,18 +25,4 @@ function sendEmail(event) {
         });
 }
 
-document.getElementById('contactForm').addEventListener('submit', sendEmail); 
-
-
-document.getElementById('contactForm').addEventListener('submit', function (event) {
-    event.preventDefault(); 
-    var alertMessage = document.getElementById('alertMessage');
-    alertMessage.classList.remove('d-none'); 
-    alertMessage.classList.add('show'); 
-    this.reset();
-});  
-
-
-
-
-
+document.getElementById('contactForm').addEventListener('submit', sendEmail);  

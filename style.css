@@ -1,64 +1,55 @@
 body {
     font-family: 'Montserrat', sans-serif;
-	margin: 0;
-}
-.header {
-	height: 94.2vh;
-	background-image: url("background.png");
-	background-size: cover;
-	background-position: center;
-}
-.carousel-item {
-	margin-top: 20%;
-}
-.carousel-item h1 {
-	color: #ffffff;
-	font-family: "Montserrat", sans-serif;
-	font-size: 80px;
-}
-.carousel-item p {
-	font-family: "Montserrat", sans-serif;
-	color: white;
-}
-iframe {
-	width: 150%;
-	height: 300px;
-	border: 0;
-}
-.gallery-item img {
-	height: 200px;
-	object-fit: cover;
-}
-	
-.fade-in {
-	opacity: 0;
-	transform: translateY(20px);
-	transition: opacity 0.5s ease-out, transform 0.5s ease-out;
-}
-	
-.fade-in.show {
-	opacity: 1;
-	transform: translateY(0);
+    margin: 0;
+    background-color: #0B0F15;
+    color: white;
 }
 
-.gallery-item img {
-	height: 200px;
-	object-fit: cover;
+.header {
+    height: 100vh;
+    background-image: url("background.png");
+    background-size: cover;
+    background-position: center;
 }
-	
+.navskie{
+    background: rgba(180, 142, 142, 0.15);
+    -webkit-backdrop-filter: blur(6px);
+    backdrop-filter: blur(6px);
+    border: 1px solid rgba(255, 255, 255, 0.075);
+}
+.carousel-item {
+    margin-top: 20%;
+}
+.carousel-item h1 {
+    color: #ffffff;
+    font-family: "Montserrat", sans-serif;
+    font-size: 80px;
+}
+
+.carousel-item p {
+    font-family: "Montserrat", sans-serif;
+    color: white;
+}
+iframe {
+    width: 150%;
+    height: 300px;
+    border: 0;
+}
 .fade-in {
-	opacity: 0;
-	transform: translateY(20px);
-	transition: opacity 0.5s ease-out, transform 0.5s ease-out;
+    opacity: 0;
+    transition: opacity 0.5s ease-in;
 }
+    
 .fade-in.show {
-	opacity: 1;
-	transform: translateY(0);
+    opacity: 1;
 }
-/* .aboutgenie{
-	height: auto;
-    width: 70%;
-} */
+.imgvincent {
+    height: 85%;
+    width: auto;
+}
+.companyname{
+    text-decoration: none;
+}
 .infos{
-	text-align: justify;
+    text-align: justify;
 }

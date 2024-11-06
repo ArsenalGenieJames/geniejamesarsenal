@@ -1,108 +1,380 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet"
-    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0&icon_names=menu" />
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-  <link rel="icon" href="logo.png" type="png">
-  <link rel="stylesheet" href="style.css">
-  <title>Genie James Arsenal</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0&icon_names=menu" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Genie James Arsenal</title>
+    <style>
+       
+    </style>
 </head>
+
 <body>
-  <nav class="navbar navbar-expand-lg navbar-light bg-light">
-  
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav"
-      aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-  
-    <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
-      <ul class="navbar-nav mx-auto">
-        <li class="nav-item active">
-          <a class="nav-link btn active" href="index.html">Home</a>
-        </li>
-        <li class="nav-item">
-                  <a class="nav-link" href="layout.html">Project</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="contact.html">Contact</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="about.html">About</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Blog</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Services</a>
-        </li>
-      </ul>
+<nav class="navbar navbar-expand-lg navbar-dark fixed-top navskie ">
+    <div class="container-fluid">
+        <a class="navbar-brand nav-link" href="#about">
+            <strong>Genie James Arsenal</strong>
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarExample01"
+            aria-controls="navbarExample01" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="fas fa-bars"></i>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarExample01">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item active">
+                    <a class="nav-link active" href="#about">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#Design">Project</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#experience">Experience</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="contact.html">Contact</a>
+                </li>
+            </ul>
+            <ul class="navbar-nav list-inline">
+                <!-- Icons -->
+                <li class="list-inline-item">
+                    <a class="nav-link" href="https://www.youtube.com/channel/UC5CF7mLQZhvx8O5GODZAhdA" target="_blank">
+                        <i class="fab fa-youtube"></i>
+                    </a>
+                </li>
+                <li class="list-inline-item">
+                    <a class="nav-link" href="https://www.facebook.com/mdbootstrap" target="_blank">
+                        <i class="fab fa-facebook-f"></i>
+                    </a>
+                </li>
+                <li class="list-inline-item">
+                    <a class="nav-link" href="https://twitter.com/MDBootstrap" target="_blank">
+                        <i class="fab fa-twitter"></i>
+                    </a>
+                </li>
+                <li class="list-inline-item">
+                    <a class="nav-link" href="https://github.com/mdbootstrap/mdb-ui-kit" target="_blank">
+                        <i class="fab fa-github"></i>
+                    </a>
+                </li>
+            </ul>
+        </div>
     </div>
-  </nav>
-    
-  <div class="header">
-    <div class="container">
-      <div class="row">
-        <div class="col-12">
-                      <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+</nav>
+
+    <div class="header">
+        <div class="container">
+            <div class="row" id="about">
+                <div class="col-12">
+                    <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
                         <div class="carousel-inner text-center">
-              
-                          <div class="carousel-item active">
-                            <h1>Graphics Designer</h1>
-                            <p>Welcome to my creative playground. Let's bring your vision to life!</p>
-                            <a href="https://www.facebook.com/pakyuimongmama" class="btn btn-dark" target="_blank">Direct Contact</a>
-                            <a href="layout.html"
-                              class="btn btn-dark" target="_blank">Project</a>
-                          </div>
-              
-                          <div class="carousel-item">
-                            <h1>Video Editor</h1>
-                            <p>Welcome to my creative playground. Let's bring your vision to life!</p>
-                            <a href="https://www.facebook.com/pakyuimongmama" class="btn btn-dark" target="_blank">Direct Contact</a>
-                            <a href="layout.html"
-                              class="btn btn-dark" target="_blank">Project</a>
-                          </div>
-              
-                          <div class="carousel-item">
-                            <h1>Programmer</h1>
-                            <p>Welcome to my creative playground. Let's bring your vision to life!</p>
-                            <a href="https://www.facebook.com/pakyuimongmama" class="btn btn-dark" target="_blank">Direct Contact</a>
-                            <a href="layout.html"
-                              class="btn btn-dark" target="_blank">Project</a>
-                           
-                          </div>
+                            <div class="carousel-item active">
+                                <h1>Graphics Designer</h1>
+                                <p>Welcome to my creative playground. Let's bring your vision to life!</p>
+                                <a href="https://www.facebook.com/pakyuimongmama" class="btn btn-dark"
+                                    target="_blank">Direct Contact</a>
+                                <a href="#Design" class="btn btn-dark" >Project</a>
+                            </div>
 
+                            <div class="carousel-item">
+                                <h1>Video Editor</h1>
+                                <p>Welcome to my creative playground. Let's bring your vision to life!</p>
+                                <a href="https://www.facebook.com/pakyuimongmama" class="btn btn-dark"
+                                    target="_blank">Direct Contact</a>
+                                <a href="#Design" class="btn btn-dark" >Project</a>
+                            </div>
 
-                    
-              
+                            <div class="carousel-item">
+                                <h1>Programmer</h1>
+                                <p>Welcome to my creative playground. Let's bring your vision to life!</p>
+                                <a href="https://www.facebook.com/pakyuimongmama" class="btn btn-dark"
+                                    target="_blank">Direct Contact</a>
+                                <a href="#Design" class="btn btn-dark">Project</a>
+                            </div>
                         </div>
+
                         <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
-                          data-bs-slide="prev">
-                          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                          <span class="visually-hidden">Previous</span>
+                            data-bs-slide="prev" aria-label="Previous Slide">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                         </button>
                         <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
-                          data-bs-slide="next">
-                          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                          <span class="visually-hidden">Next</span>
+                            data-bs-slide="next" aria-label="Next Slide">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
                         </button>
-                      </div>
-
-                      
-
-                    </div>    
-      </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
-  </div>
-    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-    <script src="code.js"></script>
+    <!-- Project -->
+    <div class="container mt-5" id="Design">
+        <h4 class="text-left my-5">Facebook Frame</h4>
+        <div class="row gallery">
+            <div class="col-3 gallery-item fade-in">
+                <img src="/facebook frame/ANEMO.png" alt="Image1" class="img-fluid" data-bs-toggle="modal"
+                    data-bs-target="#imageModal" data-img-src="/facebook frame/ANEMO.png">
+            </div>
+            <div class="col-3 gallery-item fade-in">
+                <img src="/facebook frame/BANDITS.png" alt="Image2" class="img-fluid" data-bs-toggle="modal"
+                    data-bs-target="#imageModal" data-img-src="/facebook frame/BANDITS.png">
+            </div>
+            <div class="col-3 gallery-item fade-in">
+                <img src="/facebook frame/geo.png" alt="Image3" class="img-fluid" data-bs-toggle="modal"
+                    data-bs-target="#imageModal" data-img-src="/facebook frame/geo.png">
+            </div>
+            <div class="col-3 gallery-item fade-in">
+                <img src="/facebook frame/WARRIORS.png" alt="Image4" class="img-fluid" data-bs-toggle="modal"
+                    data-bs-target="#imageModal" data-img-src="/facebook frame/WARRIORS.png">
+            </div>
+        </div>
+    
+        <div class="container">
+            <h4 class="text-left my-5">Election Campaign</h4>
+            <div class="row">
+                <div class="col-md-3 mb-4 mb-lg-0 fade-in">
+                    <img src="poster/Irish Venus Roble Pontoy_POSTER.jpg" class="w-100 shadow-1-strong rounded mb-4"
+                        alt="Irish Venus Roble Pontoy" data-bs-toggle="modal" data-bs-target="#imageModal"
+                        data-img-src="poster/Irish Venus Roble Pontoy_POSTER.jpg" />
+                    <img src="poster/Shanie Melody Pude Patrocinio_POSTER.jpg" class="w-100 shadow-1-strong rounded mb-4"
+                        alt="Shanie Melody Pude Patrocinio" data-bs-toggle="modal" data-bs-target="#imageModal"
+                        data-img-src="poster/Shanie Melody Pude Patrocinio_POSTER.jpg" />
+                </div>
+    
+                <div class="col-md-3 mb-4 mb-lg-0 fade-in">
+                    <img src="poster/John Rey Patacsil Cordova_POSTER.jpg" class="w-100 shadow-1-strong rounded mb-4"
+                        alt="John Rey Patacsil Cordova" data-bs-toggle="modal" data-bs-target="#imageModal"
+                        data-img-src="poster/John Rey Patacsil Cordova_POSTER.jpg" />
+                    <img src="poster/Cesar Angelo Jalon  Pasignajen_POSTER.jpg" class="w-100 shadow-1-strong rounded mb-4"
+                        alt="Cesar Angelo Jalon Pasignajen" data-bs-toggle="modal" data-bs-target="#imageModal"
+                        data-img-src="poster/Cesar Angelo Jalon  Pasignajen_POSTER.jpg" />
+                </div>
+    
+                <div class="col-md-3 mb-4 mb-lg-0 fade-in">
+                    <img src="poster/Donna Jean Coronel Bangquiao_POSTER.jpg" class="w-100 shadow-1-strong rounded mb-4"
+                        alt="Donna Jean Coronel Bangquiao" data-bs-toggle="modal" data-bs-target="#imageModal"
+                        data-img-src="poster/Donna Jean Coronel Bangquiao_POSTER.jpg" />
+                    <img src="poster/Davie Paul Pontoy Sanchez_poster.jpg" class="w-100 shadow-1-strong rounded mb-4"
+                        alt="Davie Paul Pontoy Sanchez" data-bs-toggle="modal" data-bs-target="#imageModal"
+                        data-img-src="poster/Davie Paul Pontoy Sanchez_poster.jpg" />
+                </div>
+    
+                <div class="col-md-3 mb-4 mb-lg-0 fade-in">
+                    <img src="poster/Aljunel Garces Yamamoto_POSTER1.jpg" class="w-100 shadow-1-strong rounded mb-4"
+                        alt="Aljunel Garces Yamamoto" data-bs-toggle="modal" data-bs-target="#imageModal"
+                        data-img-src="poster/Aljunel Garces Yamamoto_POSTER1.jpg" />
+    
+                    <img src="poster/Jesriel Villarin Donato_POSTER.jpg" class="w-100 shadow-1-strong rounded mb-4"
+                        alt="Jesriel Villarin Donato" data-bs-toggle="modal" data-bs-target="#imageModal"
+                        data-img-src="poster/Jesriel Villarin Donato_POSTER.jpg" />
+                </div>
+    
+                <div class="mb-12 mb-lg-0 fade-in">
+                    <img src="poster/newtarpulin_final.jpg" class="w-100 shadow-1-strong rounded mb-4"
+                        alt="newtarpulin_final" data-bs-toggle="modal" data-bs-target="#imageModal"
+                        data-img-src="poster/newtarpulin_final.jpg" />
+                </div>
+            </div>
+    
+    
+            <h4 class="text-left my-5">T-shirt Mock up</h4>
+            <div class="row gallery justify-content-center">
+                <div class="col-3 gallery-item fade-in">
+                    <img src="/t shirt mockup/DEPARTMENTCSPOSTERTSHIRT.png" alt="Image1" class="img-fluid imgvincent"
+                        data-bs-toggle="modal" data-bs-target="#imageModal"
+                        data-img-src="/t shirt mockup/DEPARTMENTCSPOSTERTSHIRT.png">
+                </div>
+    
+                <div class="col-3 gallery-item fade-in">
+                    <img src="/t shirt mockup/POSTER.png" alt="Image1" class="img-fluid" data-bs-toggle="modal"
+                        data-bs-target="#imageModal" data-img-src="/t shirt mockup/POSTER.png">
+                </div>
+    
+                <div class="col-3 gallery-item fade-in">
+                    <img src="/t shirt mockup/vincent shenanigangs.png" alt="Image1" class="img-fluid imgvincent"
+                        data-bs-toggle="modal" data-bs-target="#imageModal"
+                        data-img-src="/t shirt mockup/vincent shenanigangs.png">
+                </div>
+            </div>
+    
+    
+    
+        </div>
+
+
+       <!--  about -->
+        <div class="container mt-5">
+            <div class="row align-items-center">
+        
+                <div class="col-md-6">
+                    <img src="https://scontent.fmnl9-1.fna.fbcdn.net/v/t39.30808-6/368322953_1275547233130109_1500097700402283422_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=a5f93a&_nc_eui2=AeHilDTmxk3TJJxwfcLaAHveFuyfw9fp04UW7J_D1-nTheMHZYGmk9cITBdeK91f6OJJPinGWjJ8GwsFhPOKQzaw&_nc_ohc=aXF3_tmrCfUQ7kNvgGS5bKl&_nc_zt=23&_nc_ht=scontent.fmnl9-1.fna&_nc_gid=AL8TXYRF06gsKDKyGDoLqx8&oh=00_AYBzNGiMASQQaeGSw41LMt34dpm17ZfA6c5TnNuwds_ujg&oe=6730EAE2"
+                        alt="geniejamesarsenal" class="img-fluid rounded-5 fade-in ">
+                </div>
+        
+                <div class="col-md-6 mt-5">
+                    <b>
+                        <h4 class="fw-bold">Genie James Arsenal</h4>
+                    </b>
+                    <p>Welcome to my creative playground. Let's bring your vision to life!</p>
+                    <p class="infos">I am a passionate Graphics Designer with nearly 8 years of experience, currently pursuing a
+                        Bachelor of Science in Information Technology at St. Peter's College, Iligan City. My background
+                        combines creative expertise with technical skills, allowing me to bring dynamic, visually engaging
+                        solutions to a wide range of digital projects. I am dedicated to continuous learning and leveraging
+                        design principles to make an impact in both academia and industry.</p>
+        
+                    <h4 class="fw-bold">Skills</h4>
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <p>&#9658; Photoshop</p>
+                                <p>&#9658; UI & UX Designer</p>
+                                <p>&#9658; Video Editing</p>
+                            </div>
+                            <div class="col-md-6">
+                                <p>&#9658; Figma</p>
+                                <p>&#9658; Adobe XD</p>
+                                <p>&#9658; Graphics Designer</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        
+                <h4 class="fw-bold mt-5">Experience</h4>
+            <div class="container" id="experience">
+                <div class="row">
+                    <div class="col-md-6">
+                        <h4 class="fw-bold mt-2 "><a href="https://www.facebook.com/tambacan.sikhay" class="companyname" target="_blank">Sikhay Tambacan Organization</a></h4>
+                        <p><strong>Position:</strong> Media Editor</p>
+                        <p><strong>Duration:</strong> Full campaign period</p>
+                        <p class="infos">I served as the primary editor, overseeing video production and graphic design for promotional materials.
+                            Collaborated with the team to maintain consistent visual identity and engaging content.</p>
+            
+                        <h5 class="mt-3">Key Responsibilities</h5>
+                        <ul>
+                            <li>Edited and optimized video content</li>
+                            <li>Designed banners, social media posts, and flyers</li>
+                            <li>Maintained cohesive visual style with team</li>
+                            <li>Managed deadlines for timely content delivery</li>
+                        </ul>
+            
+                        <h5 class="mt-3">Tools & Technologies</h5>
+                        <ul>
+                            <li>Adobe Premiere Pro, After Effects for video editing</li>
+                            <li>Adobe Photoshop, Illustrator for graphic design</li>
+                            <li>Basic Canva for quick edits</li>
+                            <li>Google Drive for project management</li>
+                        </ul>
+            
+                        <h5 class="mt-3">Skills Developed</h5>
+                        <ul>
+                            <li>Enhanced video editing and graphic design skills</li>
+                            <li>Improved project management and teamwork abilities</li>
+                            <li>Ability to work under pressure and meet deadlines</li>
+                            <li>Strengthened creative problem-solving skills</li>
+                        </ul>
+                    </div>
+            
+                    <div class="col-md-6">
+                        <h4 class="fw-bold mt-2"><a href="https://www.facebook.com/AsiaPrintstationOfficial" class="companyname" target="_blank">ASIA Printstation & Internet Bar</a></h4>
+                        <p><strong>Position:</strong> Graphics Designer</p>
+                        <p><strong>Duration:</strong> ICI-Iligan Ojt</p>
+                        <p class="infos">I enhance my skills in real-time editing scenarios because tasks come in every minute at this company. I embrace the
+                        challenge, and I'm happy for it, as it helps me gain knowledge, identify my strengths, and improve my weaknesses.</p>
+            
+                        <h5 class="mt-3">Key Responsibilities</h5>
+                        <ul>
+                            <li>Edited and optimized video content</li>
+                            <li>Designed banners, social media posts, and flyers</li>
+                            <li>Maintained cohesive visual style with team</li>
+                            <li>Managed deadlines for timely content delivery</li>
+                        </ul>
+            
+                        <h5 class="mt-3">Tools & Technologies</h5>
+                        <ul>
+                            <li>Adobe Premiere Pro, After Effects for video editing</li>
+                            <li>Adobe Photoshop, Illustrator for graphic design</li>
+                            <li>Basic Canva for quick edits</li>
+                            <li>Google Drive for project management</li>
+                        </ul>
+            
+                        <h5 class="mt-3">Skills Developed</h5>
+                        <ul>
+                            <li>Enhanced video editing and graphic design skills</li>
+                            <li>Improved project management and teamwork abilities</li>
+                            <li>Ability to work under pressure and meet deadlines</li>
+                            <li>Strengthened creative problem-solving skills</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+        
+        
+        </div>
+
+        <div class="container text-center mt-5"> <a href="contact.html" class="btn btn-primary">Contact</a>
+        </div>
+        
+        <footer class="text-center mt-5">
+            <p>&copy; 2024 Genie James Arsenal. All rights reserved.</p>
+        </footer>
+
+    
+        <div class="modal fade" id="imageModal" tabindex="-1" aria-labelledby="imageModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-lg">
+                <div class="modal-content">
+            
+                    <div class="modal-body">
+                        <img id="modalImage" src="" alt="Preview" class="img-fluid" />
+                    </div>
+                </div>
+            </div>
+        </div>
+    
+    </div>
+
+    
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+        crossorigin="anonymous"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
+        integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
+        crossorigin="anonymous"></script>
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+   <script>
+    
+        document.addEventListener('DOMContentLoaded', function () {
+            const items = document.querySelectorAll('.fade-in');
+            items.forEach(item => {
+                const observer = new IntersectionObserver((entries) => {
+                    entries.forEach(entry => {
+                        if (entry.isIntersecting) {
+                            entry.target.classList.add('show');
+                            observer.unobserve(entry.target);
+                        }
+                    });
+                });
+                observer.observe(item);
+            });
+
+            document.querySelectorAll('img[data-bs-toggle="modal"]').forEach(img => {
+                img.addEventListener('click', function () {
+                    const imgSrc = this.getAttribute('data-img-src');
+                    if (imgSrc) {
+                        document.getElementById('modalImage').src = imgSrc;
+                    }
+                });
+            });
+        });
+   </script>
 </body>
+
 </html>
